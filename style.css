@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    
+}
+.inputs input{
+    margin-bottom: 15px;
+    padding: 7px;
+    border-radius: 15px;
+}
+.inputs button ,#finished{
+    padding: 5px;
+    width: 100px;
+    border-radius: 20px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: .5s;
+}
+.inputs button.activeBtn{
+    background-color: green;
+    color: white;
+    font-size: large;
+    letter-spacing: 2px;
+}
+
+
+
+.my-table{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+table th , table td{
+    padding: 15px 20px;
+    border: 1px solid rgb(107, 107, 107);
+    text-align: center;
+}
+
+
+.cartDelete{
+    color: rgb(155, 5, 5);
+     font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}

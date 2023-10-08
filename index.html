@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>monthly expense</title>
+</head>
+<body>
+        <header><h1></h1></header>
+    <div class="container">
+        <div class="inputs">
+            <input placeholder="name" type="text" id="title">
+            <input placeholder="price" type="number" id="price">
+            <button id="button">ADD</button>
+        </div>
+    </div>
+
+    <div class="my-table">
+        <table>
+            <thead>
+                <tr>
+                    <th>title</th>
+                    <th>price</th>
+                    <th>data</th>
+                    <th>delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>total</th>
+                    
+                <th id="totalCost"></th>
+                <th  style="cursor: pointer;" onclick="showPrompt()">/<span id="portion"></span></th>
+                <th id="total"></th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <div class="container">
+        <button id="finished">بدء شهر جديد</button>
+    </div>
+    <div class="container">
+        <div id="mylist">
+            
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
