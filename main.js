@@ -29,7 +29,7 @@ creatBasket();
 
 let myData = new Date();
 const day = myData.getDate();
-const month = myData.getMonth('en', { month: 'short' }); // E.g., "Jul"
+const month = myData.getMonth() + 1; // E.g., "Jul"
 const year = myData.getFullYear();
 const formattedDate = `${day}/${month}/${year}`;
 
